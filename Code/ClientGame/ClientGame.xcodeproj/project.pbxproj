@@ -53,6 +53,7 @@
 		34EB439E15A59E1000CF9CD8 /* libjasper.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 34EB439D15A59E1000CF9CD8 /* libjasper.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
 		34EB43A915A59E2800CF9CD8 /* libjasper.dylib in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 34EB439D15A59E1000CF9CD8 /* libjasper.dylib */; };
 		34EB43AB15A59EA800CF9CD8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E76381133967E200BA9A3C /* libz.dylib */; };
+		4FB64E07199C502C0031C56E /* HudTextActor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4FB64E06199C502C0031C56E /* HudTextActor.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -201,6 +202,8 @@
 		34E76381133967E200BA9A3C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		34E76403133979E000BA9A3C /* libpng.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpng.dylib; path = "../Angel/Libraries/DevIL-SDK-1.7.8/mac/lib/libpng.dylib"; sourceTree = "<group>"; };
 		34EB439D15A59E1000CF9CD8 /* libjasper.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjasper.dylib; path = "../Angel/Libraries/DevIL-SDK-1.7.8/mac/lib/libjasper.dylib"; sourceTree = "<group>"; };
+		4FB64DFB199C4FE70031C56E /* HudTextActor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HudTextActor.h; sourceTree = "<group>"; };
+		4FB64E06199C502C0031C56E /* HudTextActor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HudTextActor.cpp; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* ClientGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClientGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -243,6 +246,8 @@
 		29B97314FDCFA39411CA2CEA /* ClientGame */ = {
 			isa = PBXGroup;
 			children = (
+				4FB64E06199C502C0031C56E /* HudTextActor.cpp */,
+				4FB64DFB199C4FE70031C56E /* HudTextActor.h */,
 				347CFFE811DC23E100761E0E /* Angel Support */,
 				34713D900EA6D6F800AF58CA /* Config */,
 				34713D990EA6D71100AF58CA /* Resources */,
@@ -507,6 +512,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB64E07199C502C0031C56E /* HudTextActor.cpp in Sources */,
 				34974A330E2925BE0018A032 /* Main.cpp in Sources */,
 				34974A320E2925BE0018A032 /* stdafx.cpp in Sources */,
 				34A6E2A71527568800BEA400 /* AngelLuaWrapping.cpp in Sources */,
